@@ -1,0 +1,16 @@
+{
+  "name": "material-share",
+  "version": "1.0.0",
+  "description": "An API for Notes, Slides and Book Sharing",
+  "main": "src/api/index.js",
+  "scripts": {
+    "test": "node src/api/index.js"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "grpc"
+  ],
+  "author": "tasmirz",
+  "license": "AGPL-3.0-or-later"
+}
