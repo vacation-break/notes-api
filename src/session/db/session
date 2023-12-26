@@ -1,0 +1,10 @@
+{"expire":180000,"uuid":"3f3da258-5dad-451c-8a09-ff158ff5335d","email":"","captcha":"44b912f2","captcha_no":0,"verification_code":"","ip":"127.0.0.1","_id":"0UAoRS8BV8EEduSe"}
+{"captcha":"25dc1a22a8170795","expire":1701967499579,"_id":"AZGIzWcinMrlXngi"}
+{"expire":1702212182236,"uuid":"9875eb07-b922-4cc0-8d96-8dac7a72689b","email":"","captcha":"","captcha_no":0,"verification_code":"","ip":"127.0.0.1","_id":"EcKvap7DJy9zaggX"}
+{"captcha":"3063f2726f211e6c","expire":1701967598700,"_id":"Oh54IsIXvvvMyk2Z"}
+{"expire":1701967196822,"uuid":"dc71e6d4-3471-4281-a0a4-3fb9fc4fe7fa","email":"","captcha":"","captcha_no":0,"verification_code":"","ip":"127.0.0.1","_id":"QupMdCvDMOC5H2Tf"}
+{"expire":1702211408894,"uuid":"8dcd175f-76a4-4793-83b3-f997765c24b3","email":"","captcha":"","captcha_no":0,"verification_code":"","ip":"127.0.0.1","_id":"QxYD94UvQAmnnFKg"}
+{"expire":1702191639969,"uuid":"acef22dd-70da-429b-b18c-0232c461c17e","email":"","captcha":"","captcha_no":0,"verification_code":"","ip":"127.0.0.1","_id":"TTvhOm72PKAabTha"}
+{"expire":1701968500556,"uuid":"2e461000-d192-47b0-bf39-f1dcfe761f23","email":"","captcha":"54da20cd","captcha_no":0,"verification_code":"","ip":"127.0.0.1","_id":"hnoyQGjIsEK14jSK"}
+{"captcha":"b6b360942c646aa9","expire":1701967664878,"_id":"w3xclzngeAnX4muP"}
+{"$$indexCreated":{"fieldName":"uuid","unique":false,"sparse":false}}

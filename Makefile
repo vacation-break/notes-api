@@ -1,4 +1,4 @@
-.PHONY: genkeys
+.PHONY: genkeys proto build
 keys:
 	openssl genrsa 4096 > secrets/keys/server.key
 	openssl req -new -key secrets/keys/server.key -out secrets/keys/server.csr -subj "/CN=server.example.com"
@@ -8,6 +8,8 @@ enviroment:
 	node ./utils/generate_environment.mjs
 init:
 	echo -1
-protoc:
-	protoc --js_out=import_style=module --grpc_out=grpc_jsgroute_guide.proto
-
+proto:
+	 cd src/proto/src && grpc_tools_node_protoc --js_out=import_style=commonjs,binary:.. --grpc_out=grpc_js:.. authentication.proto
+clean-proto:
+	cd src/proto && rm *.js
+build:keys,enviroment,proto

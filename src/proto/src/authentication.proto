@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package authentication;
+
+service User {
+  rpc Init(Empty) returns (Token);
+  rpc Login(LoginRequest) returns (Empty);
+  rpc Verify(VerificationRequest) returns (Token);
+  rpc Captcha(Token) returns (CaptchaResponse);
+}
+
+service Bot {}
+message Empty {}
+message Token { string token = 1; }
+message CaptchaResponse { string captcha = 1; }
+message LoginRequest {
+  string token = 1;
+  string email = 2;
+  string captcha = 3;
+}
+message VerificationRequest { string pin = 1; }
